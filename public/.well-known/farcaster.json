@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "baseBuilder": {
+    "ownerAddress": "0x0000000000000000000000000000000000000000"
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "Block Base MiniApp",
+    "homeUrl": "https://block-base.vercel.app",
+    "iconUrl": "https://block-base.vercel.app/icon.png",
+    "splashImageUrl": "https://block-base.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "subtitle": "Build for everyone",
+    "description": "Play Block Base puzzle game on Base! Match colorful blocks, create combos, and mint an NFT when you score 10+ points. Build for everyone.",
+    "primaryCategory": "games",
+    "tags": [
+      "games",
+      "puzzle",
+      "build for everyone"
+    ],
+    "noindex": true,
+    "ogTitle": "Block Base MiniApp - Build for everyone",
+    "ogDescription": "Score 10+ to mint an NFT on Block Base. Build for everyone.",
+    "ogImageUrl": "https://block-base.vercel.app/og-image.png"
+  }
+}
