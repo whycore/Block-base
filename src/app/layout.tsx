@@ -83,9 +83,27 @@ export default function RootLayout({
     }
   };
 
+  // Farcaster MiniApp preview metadata
+  const fcMiniappMetadata = {
+    version: "next",
+    imageUrl: `${appUrl}/og-image.png`,
+    button: {
+      title: "Open Block Base",
+      action: {
+        type: "launch_frame",
+        url: appUrl,
+      },
+    },
+  };
+
   return (
     <html lang="en">
       <head>
+        {/* Farcaster MiniApp Preview */}
+        <meta
+          name="fc:miniapp"
+          content={JSON.stringify(fcMiniappMetadata)}
+        />
         {/* JSON-LD Structured Data */}
         <script
           type="application/ld+json"
